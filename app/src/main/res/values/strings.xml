@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Seekho Task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="colored_text">
+    <![CDATA[<font color="#8A49D9">First Part</font> <font color="#ED3FC1">Second Part</font>]]>
+</string>
+</resources>
