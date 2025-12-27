@@ -5,7 +5,7 @@ Built with a clean separation of layers, offline-first caching, and reactive UI 
 
 ---
 
-## ✅ Features Implemented (End-to-End)
+## Features Implemented (End-to-End)
 
 ### 1) Top Anime List (Home)
 - Fetches **Top Anime** from Jikan API (`/v4/top/anime?page=1`)
@@ -73,7 +73,7 @@ Implemented a consistent error model:
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 ### Layers
 - **UI layer**: Activity + Fragments + Adapters
@@ -91,7 +91,7 @@ Implemented a consistent error model:
 
 ---
 
-## 🔌 API Used (Jikan)
+##  API Used (Jikan)
 Base URL:
 - `https://api.jikan.moe/v4/`
 
@@ -105,7 +105,7 @@ Endpoints used:
 
 ---
 
-## 🧪 What to Test (Quick Checklist)
+## What to Test (Quick Checklist)
 - Launch app → should show Top Anime
 - Tap anime → detail loads + cast loads
 - Turn off internet:
@@ -117,7 +117,7 @@ Endpoints used:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Kotlin
 - MVVM
 - StateFlow + Coroutines
@@ -128,7 +128,7 @@ Endpoints used:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone repo
 2. Open in Android Studio
 3. Sync Gradle
@@ -136,7 +136,7 @@ Endpoints used:
 
 ---
 
-## 📌 Notes / Decisions
+##  Notes / Decisions
 - Pagination: For assignment scope, showing **page=1** top anime is sufficient.
   (Easy to extend to paging if required.)
 - Trailer: Jikan provides trailer fields like:
@@ -162,7 +162,7 @@ Endpoints used:
 
 ---
 
-## 🎬 Trailer Behavior (Two Ways)
+## Trailer Behavior (Two Ways)
 
 If trailer exists:
 - When **ONLINE**:
@@ -178,6 +178,6 @@ If trailer does NOT exist:
 - Watch Trailer button is hidden
 
 
-## 👤 Author
+## Author
 Gopalakrishnvel R
 
